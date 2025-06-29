@@ -27,15 +27,13 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 # Inherit some common Infinity-X stuff
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-# Infinity-X Specific Flags
-INFINITY_BUILD_TYPE := OFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
-INFINITY_MAINTAINER := tejas101k
 
 # Device identifier
-PRODUCT_NAME := infinity_ginkgo
+PRODUCT_NAME := superior_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_VENDOR_PRODUCT_NAME := ginkgo
